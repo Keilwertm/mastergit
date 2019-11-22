@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="employeemanager1.2"
+    errors="0" failures="0" hostname="" id="" package="employeemanager1.2" skipped="0"
+    tests="2" time="20.70" timestamp="">
+  
+    <testcase name="beforeeach" classname="employeemanager1.2" time="0.5880" assertions="0">
+    </testcase>
+  
+    <testcase name="Adding A New Employee" classname="employeemanager1.2" time="20.11" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="0"
+            tests="1">
+
+  <testsuite name="reactApp2"
+    errors="4" failures="0" hostname="" id="" package="reactApp2" skipped="0"
+    tests="1" time="35.57" timestamp="">
+  
+    <testcase name="React Inputs" classname="reactApp2" time="35.57" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

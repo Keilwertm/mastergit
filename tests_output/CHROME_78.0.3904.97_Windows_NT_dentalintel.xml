@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="dentalintel"
+    errors="2" failures="0" hostname="" id="" package="dentalintel" skipped="0"
+    tests="1" time="17.19" timestamp="">
+  
+    <testcase name="logging into Dental Intel" classname="dentalintel" time="17.19" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

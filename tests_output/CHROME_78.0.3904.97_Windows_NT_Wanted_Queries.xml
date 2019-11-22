@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="8"
+            failures="9"
+            tests="1">
+
+  <testsuite name="Wanted_Queries"
+    errors="8" failures="9" hostname="" id="" package="Wanted_Queries" skipped="1"
+    tests="1" time="133.0" timestamp="">
+  
+    <testcase name="Check the home page" classname="Wanted_Queries" time="133.0" assertions="9">  <failure message="Timed out while waiting for element &lt;#root&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at Object.beforeEach (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:5:14)
+    at new Promise (&lt;anonymous&gt;)</failure>
+
+      <failure message="Testing if element &lt;.bm-burger-button&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:12:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;.titleBar&gt; contains text: &#34;Wanted Queries&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Wanted Queries&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:13:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;#welcomeScreen&gt; contains text: &#34;Welcome to &#34;Wanted Queries&#34;.&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Welcome to &#34;Wanted Queries&#34;.&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:14:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;#welcomeScreen&gt; contains text: &#34;Enter Wanted&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Enter Wanted&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:15:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;#welcomeScreen&gt; contains text: &#34;Modify Wanted&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Modify Wanted&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:16:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;#welcomeScreen&gt; contains text: &#34;Cancel Wanted&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Cancel Wanted&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:17:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;.required&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:18:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+      <failure message="Testing if element &lt;.error&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:19:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.Check the home page (C:\Users\DevMtn\Practice_automation\tests\Wanted_Queries.js:19:21)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: An error occurred while retrieving a new session: &#34;Connection refused to 127.0.0.1:4444&#34;. If the Webdriver/Selenium service is managed by Nightwatch, check if &#34;start_process&#34; is set to &#34;true&#34;.[0m
+[0;90m       at Socket.socketErrorListener (_http_client.js:406:9)
+       at emitErrorNT (internal/streams/destroy.js:92:8)
+       at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+       at processTicksAndRejections (internal/process/task_queues.js:80:21)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Check required fields on warrant" classname="Wanted_Queries">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

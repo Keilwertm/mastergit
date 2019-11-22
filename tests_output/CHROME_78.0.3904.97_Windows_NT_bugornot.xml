@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="4">
+
+  <testsuite name="bugornot"
+    errors="1" failures="1" hostname="" id="" package="bugornot" skipped="1"
+    tests="4" time="7.562" timestamp="">
+  
+    <testcase name="Problem 1" classname="bugornot" time="0.7550" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Problem 2" classname="bugornot" time="0.7890" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Problem 3" classname="bugornot" time="0.6660" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Problem 4" classname="bugornot" time="5.352" assertions="1">  <failure message="Testing if element &lt;.errorCard&gt; contains text: &#34;The name field must be between 1 and 30 characters long.&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;The name field must be between 1 and 30 characters long.&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Problem 4 (C:\Users\DevMtn\Practice_automation\tests\bugornot.js:51:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.Problem 4 (C:\Users\DevMtn\Practice_automation\tests\bugornot.js:51:21)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Problem 5" classname="bugornot">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
